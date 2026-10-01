@@ -1,0 +1,188 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(7, 117, 40, 0.753);
+    color: green;
+}
+.banner {
+    padding: 15px;
+    background-color: green;
+    height: 170px;
+    background-image:url(./banner2.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.nav {
+    padding: 15px;
+    background-color: rgba(10, 145, 50, 0.096);
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.nav a {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.Potatocorner-section {
+    padding: 15px;
+    background-color: none;
+    text-align: center;
+    color: yellow;
+}
+
+.potatocorner-container {
+    padding: 15px;
+    /* background-color: green; */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+}
+.potatocornercard {
+    padding: 5px;
+    background-color: rgb(77, 206, 77);
+    height: 250px;
+    width: 170px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.potatocornercard:hover {
+    background-color: green;
+    transform: scale(1.2);
+}
+.potatocornercard img {
+    padding: 15px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+
+.feedback-section{
+    text-align: center;
+    padding: 15px;
+    /* background-color: darkgreen; */
+    
+}
+
+.feedback-container {
+   padding:15px;
+   /* background-color: rgb(22, 229, 22); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feedback {
+    padding: 15px;
+    background-color: darkgreen;
+    color: black;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    gap: 15px;
+}
+.feedback div {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.feedback img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius:50%;
+    
+    
+}
+.footer {
+    padding: 15px;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+}
+.menuitem {
+    padding: 15px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 45%;
+}
+
+.menuitem:nth-child(2){
+    transform: scale(1.1);
+}
+
+.menuitem:nth-child(3){
+    transform: scale(1.2);
+}
+.menuitem:nth-child(4){
+    transform: scale(1.3);
+}
+.menuitem:nth-child(5){
+    transform: scale(1.4);
+}
+.menuitem:nth-child(6){
+    transform: scale(1.4);
+}
+
+.menuitem img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+}
+
+.menuitem button {
+    padding: 5px;
+    background-color: lightgreen;
+    width: 50px;
+    border-radius: 5px;
+
+}
+.menucontainer {
+    padding: 5px;
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.drinkcard img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.drinkcard {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.menudrinkcontainer{
+    display: flex;
+    justify-content: center;
+}
+.menuflavors h2 {
+    /* transform: rotate(90deg); */
+    text-align: center;
+}
